@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(tiny-aes)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+SET(CMAKE_DEFAULT_STARTUP_PROJECT tiny-aes)
 
 SET(GCC_COVERAGE_COMPILE_FLAGS "")
 
